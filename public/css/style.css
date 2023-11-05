@@ -1,0 +1,135 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #fdd4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    text-align: center;
+    white-space: normal;
+}
+
+/* Adicione uma regra de mídia para quebrar o texto em várias linhas em telas menores */
+@media (max-width: 768px) {
+    header h1 {
+        white-space: normal;
+    }
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #e76e9c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fdd4e4;
+}
+
+/* Estilos para o botão de mostrar/ocultar senha */
+.password-toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Estilos para o ícone do olho */
+#eyeIcon {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Ajuste a largura do campo de senha para acomodar o ícone */
+#password {
+    width: calc(100% - 25px);
+}
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    width: 100%; 
+    text-align: center;
+
+}
+/* Estilos para o footer */
+footer {
+    background-color: #fdd4e4;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/* Estilos para o texto destacado */
+.highlighted-text {
+    color: #e24f88; /* Cor de destaque desejada */
+    font-weight: bold; /* Ou outras propriedades de fonte desejadas */
+}

@@ -1,0 +1,11 @@
+{
+    "name": "sistema-de-login-estoque",
+    "version": "1.0.0",
+    "description": "Exemplo de sistema de login e estoque com Node.js e Express",
+    "main": "app.js",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.17.2",
+        "express-session": "^1.17.3"
+    }
+}
